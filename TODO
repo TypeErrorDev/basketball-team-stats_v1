@@ -1,0 +1,69 @@
+Script Filename
+    Meets Expectations:
+        ☐ Create a file name `app.py` or `application.py` which contains the entry point to start your program logic
+
+Use the provided data
+    Meets Expectations:
+        ☐ Import and use the data from `constants.py` in your program
+
+Script Execution
+    Meets Expectatiosn:
+        ☐ The script should not crash due to uncaught exceptions. Raised exceptions should be handled appropriately so the program can continue or exit without a crash
+
+Proper use of Dunder Main
+    Meets Expectations:
+        ☐ Function calls, print statements, or any calculated execution logic should be wrapped inside a Dunder Main statement for your script
+
+Clean up data
+    Meets Expectations:
+        ☐ The player data imported from `constants.py` needs to be cleaned up and stored in new data types in a sstructure that makes sense
+        ☐ Convert the following data:
+            ☐ the `height` string should be an int
+            ☐ the `experienced` string should become a boolena of: `True` if YES, or `False` if NO
+        ☐ The `guardians` string so that it becomes a List of strings. Remove the `and` between the names and store each guardian in a List together for that player
+
+Avoid altering imported data
+    Meets Expectations:
+        ☐ Do not modify or mutate the imported data from `constants.py` in any way
+
+Team balancing
+    Meets Expectations:
+        ☐ Assign players to each team so the teams are evenly balanced by total players
+            ☐ The order in which you assign the players does not matter but should be balanced when team assignment is finished
+            ☐ The same player cannot be assigned to multiple teams
+
+    Exceeds Expectations:
+        ☐ Also balance players in a way that also ensures teams have equal numbers of experienced vs inexperienced players
+            ☐ Teams still must be balanced with the same number of players
+            ☐ Each team should have the same number of experienced vs inexperienced players
+
+Create a menu
+    Meets Expectations:
+        ☐ As a user, I should be able to respond to a menu with each of the following options:
+            ☐ Display a given teams stats
+            ☐ Quit the program
+            `actual names of the displayed options are up to you but must make sense`
+
+    Exceeds Expectations:
+        ☐ The user should be re-prompted with the main menu until they decide to "Quit the program"
+
+Display Stats
+    Meets Expectations:
+        ☐ Team stats should display:
+            ☐ Team's name as a `str`
+            ☐ Total players on that team as an `int`
+            ☐ The player names as `str` separated by commas
+            ☐ Number of inexperienced players on that team
+            ☐ Number of experienced players on that team
+            ☐ The average height of the team
+            ☐ The guardians of all the players on that team (as a comma-separated `str`)
+    
+    Exceeds Expectations:
+        ☐ Team stats should additionally display:
+            ☐ The players organized by height (tallest to shortest or shortest to tallest)
+        ☐ The following data points were saved to the team's data structure
+            ☐ Number of inexperienced players on the team
+            ☐ Number of experienced players on that team
+            ☐ The average height of the team
+
+    
