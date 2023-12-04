@@ -24,17 +24,23 @@ def cleaned_data(new_data):
         print(data["experience"])
     # Guardians
         data["guardians"] = data["guardians"].split(" and ")
-        print(data["guardians"])
+        print(data)
 
 
 def sort_experience(data):
     pass
 
 
+def balance_teams():
+    pass
+
+
 cleaned_data(PLAYERS)
-# def game_menu():
-#     pass
 
 
-# if __name__ == "__main__":
-#     game_menu()
+def game_menu():
+    pass
+
+
+if __name__ == "__main__":
+    game_menu()
