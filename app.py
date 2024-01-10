@@ -7,8 +7,6 @@ experienced_players = []
 inexperienced_players = []
 
 # @PARAMS: PLAYERS
-
-
 def cleaned_data(new_data):
     # Height
     for data in new_data:
