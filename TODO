@@ -1,69 +1,69 @@
 Script Filename
     Meets Expectations:
-        ☐ Create a file name `app.py` or `application.py` which contains the entry point to start your program logic @started(23-12-02 10:24)
+        ✔ Create a file name `app.py` or `application.py` which contains the entry point to start your program logic @started(23-12-02 10:24) @done(24-01-10 14:59) @lasted(5w4d4h35m35s)
 
 Use the provided data
     Meets Expectations:
-        ☐ Import and use the data from `constants.py` in your program @started(23-12-02 10:24)
+        ✔ Import and use the data from `constants.py` in your program @started(23-12-02 10:24) @done(24-01-10 14:59) @lasted(5w4d4h35m41s)
 
 Script Execution
     Meets Expectatiosn:
-        ☐ The script should not crash due to uncaught exceptions. Raised exceptions should be handled appropriately so the program can continue or exit without a crash @started(23-12-02 10:24)
+        ✔ The script should not crash due to uncaught exceptions. Raised exceptions should be handled appropriately so the program can continue or exit without a crash @started(23-12-02 10:24) @done(24-01-10 14:59) @lasted(5w4d4h35m44s)
 
 Proper use of Dunder Main
     Meets Expectations:
-        ☐ Function calls, print statements, or any calculated execution logic should be wrapped inside a Dunder Main statement for your script @started(23-12-02 10:24)
+        ✔ Function calls, print statements, or any calculated execution logic should be wrapped inside a Dunder Main statement for your script @started(23-12-02 10:24) @done(24-01-10 15:00) @lasted(5w4d4h36m35s)
 
 Clean up data
     Meets Expectations:
-        ☐ The player data imported from `constants.py` needs to be cleaned up and stored in new data types in a structure that makes sense @started(23-12-02 10:24)
-        ☐ Convert the following data: @started(23-12-02 10:24)
-            ☐ the `height` string should be an int @started(23-12-02 10:24)
-            ☐ the `experienced` string should become a boolena of: `True` if YES, or `False` if NO @started(23-12-02 10:24)
-        ☐ The `guardians` string so that it becomes a List of strings. Remove the `and` between the names and store each guardian in a List together for that player @started(23-12-02 10:24)
+        ✔ The player data imported from `constants.py` needs to be cleaned up and stored in new data types in a structure that makes sense @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m16s)
+        ✔ Convert the following data: @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m16s)
+            ✔ the `height` string should be an int @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m16s)
+            ✔ the `experienced` string should become a boolena of: `True` if YES, or `False` if NO @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m16s)
+        ✔ The `guardians` string so that it becomes a List of strings. Remove the `and` between the names and store each guardian in a List together for that player @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m16s)
 
 Avoid altering imported data
     Meets Expectations:
-        ☐ Do not modify or mutate the imported data from `constants.py` in any way @started(23-12-02 10:24)
+        ✔ Do not modify or mutate the imported data from `constants.py` in any way @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m19s)
 
 Team balancing
     Meets Expectations:
-        ☐ Assign players to each team so the teams are evenly balanced by total players @started(23-12-02 10:24)
-            ☐ The order in which you assign the players does not matter but should be balanced when team assignment is finished @started(23-12-02 10:24)
-            ☐ The same player cannot be assigned to multiple teams @started(23-12-02 10:24)
+        ✔ Assign players to each team so the teams are evenly balanced by total players @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m25s)
+            ✔ The order in which you assign the players does not matter but should be balanced when team assignment is finished @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m25s)
+            ✔ The same player cannot be assigned to multiple teams @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m25s)
 
     Exceeds Expectations:
-        ☐ Also balance players in a way that also ensures teams have equal numbers of experienced vs inexperienced players @started(23-12-02 10:24)
-            ☐ Teams still must be balanced with the same number of players @started(23-12-02 10:24)
-            ☐ Each team should have the same number of experienced vs inexperienced players @started(23-12-02 10:24)
+        ✔ Also balance players in a way that also ensures teams have equal numbers of experienced vs inexperienced players @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m30s)
+            ✔ Teams still must be balanced with the same number of players @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m30s)
+            ✔ Each team should have the same number of experienced vs inexperienced players @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m30s)
 
 Create a menu
     Meets Expectations:
-        ☐ As a user, I should be able to respond to a menu with each of the following options: @started(23-12-02 10:24)
-            ☐ Display a given teams stats @started(23-12-02 10:24)
-            ☐ Quit the program @started(23-12-02 10:24)
+        ✔ As a user, I should be able to respond to a menu with each of the following options: @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m49s)
+            ✔ Display a given teams stats @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m49s)
+            ✔ Quit the program @started(23-12-02 10:24) @done(24-01-10 15:01) @lasted(5w4d4h37m49s)
             `actual names of the displayed options are up to you but must make sense`
 
     Exceeds Expectations:
-        ☐ The user should be re-prompted with the main menu until they decide to "Quit the program" @started(23-12-02 10:24)
+        ✔ The user should be re-prompted with the main menu until they decide to "Quit the program" @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m)
 
 Display Stats
     Meets Expectations:
-        ☐ Team stats should display: @started(23-12-02 10:24)
-            ☐ Team's name as a `str` @started(23-12-02 10:24)
-            ☐ Total players on that team as an `int` @started(23-12-02 10:24)
-            ☐ The player names as `str` separated by commas @started(23-12-02 10:24)
-            ☐ Number of inexperienced players on that team @started(23-12-02 10:24)
-            ☐ Number of experienced players on that team @started(23-12-02 10:24)
-            ☐ The average height of the team @started(23-12-02 10:24)
-            ☐ The guardians of all the players on that team (as a comma-separated `str`) @started(23-12-02 10:24)
+        ✔ Team stats should display: @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m6s)
+            ✔ Team's name as a `str` @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m6s)
+            ✔ Total players on that team as an `int` @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m6s)
+            ✔ The player names as `str` separated by commas @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m6s)
+            ✔ Number of inexperienced players on that team @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m6s)
+            ✔ Number of experienced players on that team @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m6s)
+            ✔ The average height of the team @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m6s)
+            ✔ The guardians of all the players on that team (as a comma-separated `str`) @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m6s)
     
-    Exceeds Expectations:
-        ☐ Team stats should additionally display: @started(23-12-02 10:24)
-            ☐ The players organized by height (tallest to shortest or shortest to tallest) @started(23-12-02 10:24)
-        ☐ The following data points were saved to the team's data structure @started(23-12-02 10:24)
-            ☐ Number of inexperienced players on the team @started(23-12-02 10:24)
-            ☐ Number of experienced players on that team @started(23-12-02 10:24)
-            ☐ The average height of the team @started(23-12-02 10:24)
+    ✔ Exceeds Expectations: @done(24-01-10 15:02)
+        ✔ Team stats should additionally display: @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m14s)
+            ✔ The players organized by height (tallest to shortest or shortest to tallest) @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m14s)
+        ✔ The following data points were saved to the team's data structure @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m14s)
+            ✔ Number of inexperienced players on the team @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m14s)
+            ✔ Number of experienced players on that team @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m14s)
+            ✔ The average height of the team @started(23-12-02 10:24) @done(24-01-10 15:02) @lasted(5w4d4h38m14s)
 
     
