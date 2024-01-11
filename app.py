@@ -1,4 +1,7 @@
+import copy
+
 from constants import *
+
 
 panthers = []
 warriors = []
@@ -44,9 +47,6 @@ def balance_teams():
     panthers.sort(key=lambda player: player["height"], reverse=True)
     warriors.sort(key=lambda player: player["height"], reverse=True)
     bandits.sort(key=lambda player: player["height"], reverse=True)
-
-
-cleaned_data(PLAYERS)
 
 
 def game_menu():
@@ -134,6 +134,8 @@ def game_menu():
 
 
 if __name__ == "__main__":
-    sort_experience(PLAYERS)
+    new_players = copy.deepcopy(PLAYERS)
+    cleaned_data(new_players)
+    sort_experience(new_players)
     balance_teams()
     game_menu()
